@@ -34,7 +34,9 @@ You can still add your own custom rules to your `eslintrc` and overwrite the one
 ```
 {
 ...
-  project: require('path').resolve(__dirname, './tsconfig.json'),
+  parserOptions: {
+    project: require('path').resolve(__dirname, './tsconfig.json'),
+  }
 ...
 }
 ```
