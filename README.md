@@ -21,9 +21,7 @@ Vandebron's base eslint config, integrated with typescript and prettier.
 
 ```
 {
-...
   extends: [..., @vandebron/eslint-config-base],
-...
 }
 ```
 
@@ -33,11 +31,9 @@ You can still add your own custom rules to your `eslintrc` and overwrite the one
 
 ```
 {
-...
   parserOptions: {
     project: require('path').resolve(__dirname, './tsconfig.json'),
   }
-...
 }
 ```
 
