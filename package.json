@@ -2,6 +2,7 @@
   "name": "@vandebron/eslint-config-base",
   "version": "0.0.3",
   "description": "vandebron's base eslint config that integrates with typescript and prettier",
+  "homepage": "https://github.com/Vandebron/eslint-config-base",
   "main": "index.js",
   "files": [".prettierrc.js", "rules/*"],
   "keywords": [
