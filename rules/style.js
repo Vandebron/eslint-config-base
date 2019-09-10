@@ -1,5 +1,7 @@
 module.exports = {
   rules: {
+    // disabled as we're using '@typescript-eslint/camelcase'
+    'camelcase': 'off',
     'comma-dangle': ['error', 'always-multiline'],
     'max-len': 'off',
     'no-underscore-dangle': ['error'],
