@@ -10,8 +10,6 @@ module.exports = {
       accessibility: 'no-public',
       overrides: {
         constructors: 'off',
-        properties: 'explicit',
-      },
     }],
 
     '@typescript-eslint/no-unused-vars': ['error', {
