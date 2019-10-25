@@ -10,7 +10,9 @@ module.exports = {
     'object-curly-newline': 'off',
     'object-curly-spacing': ['error', 'always'],
     'quote-props': ['error', 'as-needed'],
-    'quotes': ['error', 'single'],
+    'quotes': ['error', 'single', {
+      avoidEscape: true,
+    }],
     'semi': ['error', 'always'],
     'space-in-parens': ['error', 'never'],
 
