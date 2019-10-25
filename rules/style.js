@@ -1,12 +1,14 @@
 module.exports = {
   rules: {
-    'array-bracket-spacing': ['error', 'always'],
+    'array-bracket-spacing': ['error', 'never'],
+
     // disabled as we're using '@typescript-eslint/camelcase'
     'camelcase': 'off',
     'comma-dangle': ['error', 'always-multiline'],
     'max-len': 'off',
     'no-underscore-dangle': ['error'],
     'object-curly-newline': 'off',
+    'object-curly-spacing': ['error', 'always'],
     'quote-props': ['error', 'as-needed'],
     'quotes': ['error', 'single'],
     'semi': ['error', 'always'],
