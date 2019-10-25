@@ -21,7 +21,7 @@ Vandebron's base eslint config, integrated with typescript and prettier.
 
 ```
 {
-  extends: [..., @vandebron/eslint-config-base],
+  extends: [..., '@vandebron/eslint-config-base'],
 }
 ```
 
