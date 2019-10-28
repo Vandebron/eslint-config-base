@@ -14,8 +14,10 @@ module.exports = {
   settings: {
     react: {
       version: 'detect',
-    }
+    },
   },
+
+  plugins: ['react-hooks'],
 
   extends: [
     'eslint:recommended',
@@ -27,9 +29,6 @@ module.exports = {
     'plugin:prettier/recommended',
 
     // custom rules
-    ...[
-      './rules/style',
-      './rules/typescript',
-    ].map(require.resolve),
+    ...['./rules/react', './rules/style', './rules/typescript'].map(require.resolve),
   ],
 };
