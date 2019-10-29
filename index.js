@@ -17,7 +17,7 @@ module.exports = {
     },
   },
 
-  plugins: ['react-hooks'],
+  plugins: ['react-hooks', 'import'],
 
   extends: [
     'eslint:recommended',
@@ -27,8 +27,9 @@ module.exports = {
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'prettier/@typescript-eslint',
     'plugin:prettier/recommended',
+    'plugin:import/typescript',
 
     // custom rules
-    ...['./rules/react', './rules/style', './rules/typescript'].map(require.resolve),
+    ...['./rules/react', './rules/style', './rules/typescript', './rules/import'].map(require.resolve),
   ],
 };
