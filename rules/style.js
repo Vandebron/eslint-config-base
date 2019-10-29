@@ -5,6 +5,7 @@ module.exports = {
     // disabled as we're using '@typescript-eslint/camelcase'
     camelcase: 'off',
     'comma-dangle': ['error', 'always-multiline'],
+    curly: ['error', 'all'],
     'lines-between-class-members': ['error', 'always'],
     'max-len': 'off',
     'no-underscore-dangle': ['error'],
