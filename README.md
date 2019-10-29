@@ -11,6 +11,7 @@ Vandebron's base eslint config, integrated with typescript and prettier.
   - `eslint-plugin-prettier`
   - `eslint-plugin-react`
   - `eslint-plugin-react-hooks`
+  - `eslint-plugin-import`
   
 2. Install the package:
 
