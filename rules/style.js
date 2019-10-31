@@ -1,10 +1,9 @@
 module.exports = {
   rules: {
     'array-bracket-spacing': ['error', 'never'],
-
     // disabled as we're using '@typescript-eslint/camelcase'
     camelcase: 'off',
-    'comma-dangle': ['error', 'always-multiline'],
+    'comma-dangle': 'off',
     curly: ['error', 'all'],
     'lines-between-class-members': ['error', 'always'],
     'max-len': 'off',
