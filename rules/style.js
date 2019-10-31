@@ -7,6 +7,7 @@ module.exports = {
     curly: ['error', 'all'],
     'lines-between-class-members': ['error', 'always'],
     'max-len': 'off',
+    'no-console': 'warn',
     'no-underscore-dangle': ['error'],
     'object-curly-newline': 'off',
     'object-curly-spacing': ['error', 'always'],
