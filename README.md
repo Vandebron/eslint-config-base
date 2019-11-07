@@ -2,21 +2,22 @@ Vandebron's base eslint config, integrated with typescript and prettier.
 
 ## Installation
 
-1. Make sure you have all the dependencies installed:
+1. Make sure you have all the peer-dependencies installed:
 
-  - `eslint`
-  - `typescript`
-  - `@typescript-eslint/eslint-plugin`
-  - `eslint-config-prettier`
-  - `eslint-plugin-prettier`
-  - `eslint-plugin-react`
-  - `eslint-plugin-react-hooks`
-  - `eslint-plugin-import`
-  
+- `@typescript-eslint/eslint-plugin`
+- `@typescript-eslint/parser`
+- `eslint-config-prettier`
+- `eslint-plugin-import`
+- `eslint-plugin-prettier`
+- `eslint-plugin-react-hooks`
+- `eslint-plugin-react`
+- `eslint`
+- `prettier`
+
 2. Install the package:
 
-  - `yarn add -D @vandebron/eslint-config-base`
-  
+- `yarn add -D @vandebron/eslint-config-base`
+
 ## Configuration
 
 1. In your `eslintrc`, add `@vandebron/eslint-config-base` to the `extends` array:
