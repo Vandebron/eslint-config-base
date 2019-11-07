@@ -1,7 +1,7 @@
 {
   "name": "@vandebron/eslint-config-base",
   "version": "1.3.0",
-  "description": "vandebron's base eslint config that integrates with typescript and prettier",
+  "description": "Vandebron's base eslint config that integrates with typescript and prettier",
   "homepage": "https://github.com/Vandebron/eslint-config-base",
   "main": "index.js",
   "files": [
@@ -16,7 +16,7 @@
     "typescript",
     "prettier"
   ],
-  "author": "Sérgio Miguel <sergiomiguel@vandebron.nl>",
+  "author": "Vandebron <digital@vandebron.nl>",
   "license": "ISC",
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": ">= 2",
