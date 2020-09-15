@@ -5,7 +5,6 @@ module.exports = {
     camelcase: 'off',
     'comma-dangle': 'off',
     curly: ['error', 'all'],
-    'lines-between-class-members': ['error', 'always'],
     'max-len': 'off',
     'no-console': 'warn',
     'no-underscore-dangle': ['error'],
@@ -32,10 +31,6 @@ module.exports = {
     ],
     'padding-line-between-statements': [
       'error',
-      { blankLine: 'always', prev: '*', next: 'return' },
-      { blankLine: 'always', prev: 'if', next: '*' },
-      { blankLine: 'always', prev: ['const', 'let', 'var'], next: '*' },
-      { blankLine: 'any', prev: ['const', 'let', 'var'], next: ['const', 'let', 'var'] },
       { blankLine: 'always', prev: 'import', next: '*' },
       { blankLine: 'never', prev: 'import', next: 'import' },
     ],
