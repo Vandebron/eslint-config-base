@@ -1,7 +1,7 @@
 module.exports = {
   rules: {
     'array-bracket-spacing': ['error', 'never'],
-    // disabled as we're using '@typescript-eslint/camelcase'
+    // disabled as we're using '@typescript-eslint/naming-convention'
     camelcase: 'off',
     'comma-dangle': 'off',
     curly: ['error', 'all'],
