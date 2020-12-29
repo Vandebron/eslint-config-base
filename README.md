@@ -49,3 +49,8 @@ module.exports = {
   ...require('@vandebron/eslint-config-base/.prettierrc.js'),
 };
 ```
+
+4. (Local development) Install the `peerDependencies`
+
+If you wish to use this package locally, for example with `yarn link`, then you will need to install the `peerDependencies`.
+Run `yarn` from the root of this project to do so.
