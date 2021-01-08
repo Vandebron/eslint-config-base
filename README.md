@@ -49,3 +49,38 @@ module.exports = {
   ...require('@vandebron/eslint-config-base/.prettierrc.js'),
 };
 ```
+
+4. (Local development) Install the `peerDependencies`
+
+If you wish to use this package locally, for example with `yarn link`, then you will need to install the `peerDependencies`.
+Run `yarn` from the root of this project to do so.
+
+# Publishing
+
+To publish a new version, first merge your branch to master. Next, pull master on your local machine and then run the following commands:
+
+```sh
+# Use the appropriate version bump. See https://semver.org/ for details
+npm version (major|minor|patch)
+
+npm publish
+
+git push && git push --tags
+```
+
+## Alpha or Beta channels
+
+If you want to deploy an Alpha or Beta version do the following:
+
+
+```sh
+npm version prerelease --preid=(alpha|beta)
+npm publish --tag (alpha|beta)
+```
+
+For example, if you want to bump the version from 3.2.0 to an alpha release of the next patch version (i.e. 3.2.1), you would do the following:
+
+```sh
+npm version prerelease --preid=alpha
+npm publish --tag alpha
+```
