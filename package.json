@@ -1,6 +1,6 @@
 {
   "name": "@vandebron/eslint-config-base",
-  "version": "3.1.1-alpha.1",
+  "version": "3.2.0",
   "description": "Vandebron's base eslint config that integrates with typescript and prettier",
   "homepage": "https://github.com/Vandebron/eslint-config-base",
   "main": "index.js",
