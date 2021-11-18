@@ -1,6 +1,6 @@
 {
   "name": "@vandebron/eslint-config-base",
-  "version": "3.0.0",
+  "version": "3.2.0",
   "description": "Vandebron's base eslint config that integrates with typescript and prettier",
   "homepage": "https://github.com/Vandebron/eslint-config-base",
   "main": "index.js",
@@ -24,12 +24,12 @@
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.0.0",
     "@typescript-eslint/parser": "^4.0.0",
-    "eslint": "^6.5.1 || ^7.0.0",
+    "eslint": "^6.5.1 || ^7.32.0",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-import": "^2.21.0",
-    "eslint-plugin-prettier": "^3.0.0",
-    "eslint-plugin-react": "^7.20.0",
-    "eslint-plugin-react-hooks": "^4.0.7",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.25.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
     "prettier": "^2.2.1",
     "typescript": "^3.0.0 || ^4.0.0"
   },
