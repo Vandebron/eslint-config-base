@@ -57,7 +57,8 @@ Run `yarn` from the root of this project to do so.
 
 # Publishing
 
-To publish a new version, first merge your branch to master. Next, pull master on your local machine and then run the following commands:
+To publish a new version, make sure you're logged into npm with an account that is part of the vandebron organisation.
+Then run the following commands:
 
 ```sh
 # Use the appropriate version bump. See https://semver.org/ for details
