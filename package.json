@@ -22,16 +22,16 @@
   "author": "Vandebron <digital@vandebron.nl>",
   "license": "ISC",
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "5.36.1",
-    "@typescript-eslint/parser": "5.36.1",
-    "eslint": "6.5.1 || 8.23.0",
-    "eslint-config-prettier": "8.5.0",
-    "eslint-plugin-import": "2.26.0",
-    "eslint-plugin-prettier": "4.2.1",
-    "eslint-plugin-react": "7.31.6",
-    "eslint-plugin-react-hooks": "4.6.0",
-    "prettier": "2.7.1",
-    "typescript": "3.0.0 || 4.8.2"
+    "@typescript-eslint/eslint-plugin": "^6.7.2",
+    "@typescript-eslint/parser": "^6.7.2",
+    "eslint": "^8.50.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
   },
   "devDependencies": {
     "install-peers-cli": "2.2.0"
