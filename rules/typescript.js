@@ -7,6 +7,10 @@ module.exports = {
         format: ['camelCase'],
       },
       {
+        selector: 'import',
+        format: ['camelCase', 'PascalCase']
+      },
+      {
         selector: ['typeAlias', 'typeParameter'],
         format: ['PascalCase', 'camelCase'],
       },
